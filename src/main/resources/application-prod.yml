@@ -11,3 +11,6 @@ spring:
     cache:
       channel:
         size: 25 # 每个连接最大通道缓存数
+    listener:
+      simple:
+        acknowledge-mode: auto  # 自动ACK（默认auto）
