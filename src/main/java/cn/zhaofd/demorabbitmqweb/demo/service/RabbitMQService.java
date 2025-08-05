@@ -17,8 +17,7 @@ public class RabbitMQService {
     private final RabbitTemplate rabbitTemplate;
     private final Queue logQueue;
 
-    @Autowired
-    public RabbitMQService(RabbitTemplate rabbitTemplate, Queue logQueue) {
+    public RabbitMQService(@Autowired RabbitTemplate rabbitTemplate, @Autowired Queue logQueue) {
         this.rabbitTemplate = rabbitTemplate;
         this.logQueue = logQueue;
     }
