@@ -11,4 +11,3 @@ spring:
     cache:
       channel:
         size: 5 # 每个连接最大通道缓存数
-
