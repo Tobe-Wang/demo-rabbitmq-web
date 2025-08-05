@@ -15,7 +15,7 @@ public class RabbitMQConfig {
      * @return Queue
      */
     @Bean
-    public Queue LogQueue() {
+    public Queue logQueue() {
         return new Queue("log-queue");
     }
 }
