@@ -12,7 +12,7 @@
     <artifactId>demo-rabbitmq-web</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>demo-rabbitmq-web</name>
-    <description>使用示例-Spring RabbitMQ</description>
+    <description>使用示例-Spring RabbitMQ自动ACK</description>
     <properties>
         <java.version>21</java.version>
     </properties>
