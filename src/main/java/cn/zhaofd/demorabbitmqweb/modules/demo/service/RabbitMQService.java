@@ -1,4 +1,4 @@
-package cn.zhaofd.demorabbitmqweb.demo.service;
+package cn.zhaofd.demorabbitmqweb.modules.demo.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

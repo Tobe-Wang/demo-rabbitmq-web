@@ -1,6 +1,6 @@
-package cn.zhaofd.demorabbitmqweb.demo.web;
+package cn.zhaofd.demorabbitmqweb.modules.demo.web;
 
-import cn.zhaofd.demorabbitmqweb.demo.service.RabbitMQService;
+import cn.zhaofd.demorabbitmqweb.modules.demo.service.RabbitMQService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
